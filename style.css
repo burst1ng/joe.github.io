@@ -1,0 +1,38 @@
+html, body{
+			height: 100%;
+		}
+body{
+	font-family: 'Cairo', sans-serif;
+	background: url(paloma.jpg) no-repeat center fixed;
+	background-size: cover;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: center;
+
+}
+hr{
+	margin-top: 2rem;
+}
+.hero-text{
+	text-align: center;
+	color: #FF5CB8;
+	transform: translate(0, 8vh);
+	font-family: 'Cairo', sans-serif;
+}
+h2,h5,h6{
+	text-shadow: 0 0 4px #292B2C;
+}
+.btn{
+	border-radius: 0.5rem;
+	text-transform: uppercase;
+	border-radius: 5rem;
+}
+.btn-primary{
+	background-color: #3E6FE9;
+}
+.btn-primary:hover{
+	background-color: #D4004B;
+	border-color: #D4004B;
+	border-width: 6px;
+}
