@@ -27,6 +27,9 @@ h2,h5,h6{
 	border-radius: 0.5rem;
 	text-transform: uppercase;
 	border-radius: 5rem;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
 }
 .btn-primary{
 	background-color: #3E6FE9;
